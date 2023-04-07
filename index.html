@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intercom Example</title>
+<script>
+  window.intercomSettings = {
+    api_base: "https://api-iam.intercom.io",
+    app_id: "u0j2mne6",
+    name: "<%= current_user.name %>", // Full name
+    email: "<%= current_user.email %>", // Email address
+    created_at: "<%= current_user.created_at.to_i %>" // Signup date as a Unix timestamp
+  };
+</script>
+	<script async src="https://widget.intercom.io/widget/YOUR_APP_ID"></script>
+</head>
+</html>
