@@ -1,5 +1,1 @@
-OpenSSL::HMAC.hexdigest(
-  'sha256', # hash function
-  'TiUlT-Kcb_VKIVA-wSjcTiRb_-hNWINjsOjZ8g3L', # secret key (keep safe!)
-  current_user.id.to_s # user's id
-)
+
